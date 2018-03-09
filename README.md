@@ -1,2 +1,14 @@
 # gRPC-sample
-gRPCを使ったマイクロサービス間の通信のサンプル
+
+gRPCを使った通信のサンプル
+
+> serverはHello + 投げられた名前を返すように実装  
+> clientは名前をserverに投げる  
+> するとHello + 名前が受け取れる
+
+1. generate
+  - `protoc -I proto proto/hello.proto --go_out=plugins=grpc:lib`
+2. run server
+  - `go run server/main.go`
+3. run client
+  - `go run client/main.go`
