@@ -7,7 +7,10 @@ gRPCを使った通信のサンプル
 > するとHello + 名前が受け取れる
 
 1. generate
-  - `protoc -I proto proto/hello.proto --go_out=plugins=grpc:lib`
+  - golang
+    - `protoc -I proto proto/hello.proto --go_out=plugins=grpc:lib`
+  - nodejs
+    - `protoc -I proto proto/hello.proto --js_out=grpc:lib`
 2. run server
   - `go run server/main.go`
 3. run client
