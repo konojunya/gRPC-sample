@@ -1,0 +1,27 @@
+{
+  "name": "gRPC-sample",
+  "version": "1.0.0",
+  "description": "gRPCを使った通信のサンプル",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konojunya/gRPC-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/konojunya/gRPC-sample/issues"
+  },
+  "homepage": "https://github.com/konojunya/gRPC-sample#readme",
+  "dependencies": {
+    "google-protobuf": "^3.5.0",
+    "grpc": "^1.9.1"
+  }
+}
