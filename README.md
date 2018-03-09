@@ -11,4 +11,8 @@ gRPCを使った通信のサンプル
 2. run server
   - `go run server/main.go`
 3. run client
-  - `go run client/main.go`
+  - golang
+    - `go run client/main.go`
+  - nodejs
+    - `npm install`
+    - `node client/main.js`
